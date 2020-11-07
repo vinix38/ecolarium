@@ -1,0 +1,39 @@
+:root{
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    --text-primary: #09e8e4;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;    
+}
+
+body {
+    background-color: rgba(0,0,0,1);
+    background-image: url("Physique.png");
+    background-size: cover;
+    background-size: 1920px 1080px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #303033;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #09e8e4;
+}
+
+input {
+    border: 3px solid #3d9ad4;
+}
+
+select {
+    background-color: #f1f1f1;
+}

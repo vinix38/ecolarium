@@ -1,0 +1,67 @@
+:root{
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    --text-primary: #ff0015;
+    --text-secondary: #ececec;
+    --bg-primary: ##0f0f0f;
+    --bg-secondary: #141418;    
+}
+
+body {
+    background-color: darkslateblue;
+    background-image: url("maths.png");
+    background-size: cover;
+    background-size: 1920px 1080px;
+    margin: 0;
+    padding: 0;
+}
+/*scroolbar */ 
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #303033;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ff0015;
+}
+/* end of the scrollbar*/ 
+input {
+    border: 3px solid #ff0015;
+}
+tbody{
+    color: azure;
+    margin-left: 200px;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ff0015;
+    border-radius: 3px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+td, th {
+    border: 2px solid #ff0015;
+    padding: 10px;
+    border-radius: 2px;
+}
+button{
+    border: 2px solid #ff0015;
+}
+
+/*end text and buttons*/

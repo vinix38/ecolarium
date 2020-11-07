@@ -1,0 +1,40 @@
+:root{
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    --text-primary: #3d9ad4;
+    --text-secondary: #ececec;
+    --bg-primary: #303033;
+    --bg-secondary: #141418;    
+}
+h1 {
+    position:fixed; top: 25%;
+}
+h2 {
+    position:fixed; top: 40%;
+}
+p {
+    position: fixed; top: 60%; 
+}
+body {
+    background-color: rgba(0,0,0,1);
+    background-image: url("bgindex.png");
+    background-size: cover;
+    background-size: 1920px 1080px;
+    margin: 0;
+    padding: 0;
+}
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #303033;
+}
+body::-webkit-scrollbar-thumb {
+    background: #3d9ad4;
+}
+main {
+    display: flex;
+    justify-content: center;
+}

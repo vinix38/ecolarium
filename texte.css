@@ -1,0 +1,62 @@
+/*text and buttons*/
+h1 {
+    color : azure;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+h2 {
+    color : azure;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+p, li {
+    color : azure;
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+}
+p {
+    margin-top:1.5em ;
+    margin-bottom: 2.5em ;
+}
+
+select {
+    width: 15%;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius:3px;
+    background-color: #f1f1f1;
+}
+output {
+    background-color:none;
+}
+
+button {
+    color: #8c8c8c;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+
+}
+input {
+    width: 110px;
+    border-radius: 4px;
+    outline: none;
+    padding: 2px;
+    box-sizing: border-box;
+}
