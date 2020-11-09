@@ -168,7 +168,7 @@
             <td> P = 2 × r × π </td>
             <td> A = r² × π </td>
             <td> A = 4 × r² × π </td>
-            <td> V = 4/3 * r³ × π </td>
+            <td> V = 4/3 × r³ × π </td>
          </tr>
          <tr onchange="rond()">
             <td><input type="number" id="rond_r" title="entrez un nombre" placeholder="ex: 5"> </td>
@@ -178,6 +178,15 @@
             <td id="rond_SV"> - </td>
          </tr>
       </table>
+      </p>
+      <!--==============================================-->
+      <h2> Valeurs du cosinus et sinus d'un nombre</h2>
+      <p onchange="cosin()">
+         Ici, vous pouvez trouver les valeurs particulières du cosinus et du sinus d'un nombre: <br><br>
+         <input type="number" id="cosin_a" title="entrez un nombre" placeholder="ex: 5"> π /
+         <input type="number" id="cosin_b" title="entrez un nombre" placeholder="ex: 5"><br>
+         Cosinus = <output id="cosin_cos"><i><small>En attente d'un nombre</small></i></output><br>
+         Sinus = <output id="cosin_sin"><i><small>En attente d'un nombre</small></i></output>
       </p>
       <!--==============================================-->
       <h2> Caractéristiques des carrés et des cubes </h2>
