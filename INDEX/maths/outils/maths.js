@@ -133,8 +133,8 @@ function pyth() {
 //===================================================
 function cosin() {
    var a = document.getElementById("cosin_a").value,
-   b = document.getElementById("cosin_b").value,
-   cos, sin;
+      b = document.getElementById("cosin_b").value,
+      cos, sin;
    if (b == 0) {
       cos = "Erreur! Impossible de diviser par zéro!";
       sin = "Erreur! Impossible de diviser par zéro!";
@@ -175,4 +175,14 @@ function cosin() {
    }
    document.getElementById("cosin_sin").value = sin;
    document.getElementById("cosin_cos").value = cos;
+}
+function decom() {
+   var N = document.getElementById("decom_N").value, i, S = [];
+   for (i = 2; i <= N; i++) {
+      while ((N % i) == 0) {
+         S.push(i);
+         N /= i;
+      }
+   }
+   document.getElementById("decom_s").innerHTML = S;
 }
